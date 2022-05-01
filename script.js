@@ -13,7 +13,7 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Jokowi kw";
+  sender = "thismoots";
 }
 
 nama.innerHTML = sender;
@@ -37,5 +37,5 @@ right.addEventListener('click', function () {
 })
 
 let footer = document.getElementById("credit");
-footer.innerHTML = "__016._";
-footer.href = "https://www.instagram.com/__016._/";
+footer.innerHTML = "thismootsga";
+footer.href = "https://www.instagram.com/thismootsga/";
